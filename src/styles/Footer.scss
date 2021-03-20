@@ -1,0 +1,42 @@
+.footer{
+    .footer-container{
+        // border-top: 1px solid black;
+        height: 5vh;
+        a{
+            &:hover{
+                color: black;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) { 
+    .footer{
+        .footer-container{
+            // border-top: 1px solid black;
+            height: 5vh;
+            a{
+                font-size: 12px !important;
+                &:hover{
+                    color: black;
+                }
+            }
+            span{
+                font-size: 12px !important;
+                margin: 0;
+            }
+            .design-title{
+                span{
+                    font-size: 12px !important;
+                    margin: 0;
+                }
+            }
+        }
+        a{
+            font-size: 13px !important;
+            &:hover{
+                color: black;
+            }
+        }
+    }
+}
